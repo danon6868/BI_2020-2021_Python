@@ -1,15 +1,35 @@
-a = input().replace('.', '').replace(',', '')
-# Check if a is not a number
-assert a.isdigit(), 'a must be a number'
-operator = input()
-operators = ['+', '/', '*', '**', '-']
-# Check if operator in list of operators (+, -, *, /, **)
-assert operator in operators, 'Operator can be +, -, *, **, /'
-b = input().replace('.', '').replace(',', '')
-# Check if b is not a number
-assert b.isdigit(), 'b must be a number'
-answer = eval(a + operator + b)
-if answer == int(answer):
-    print(int(answer))
-else:
-    print(answer)
+try:
+    a = float(input('Enter first number'))
+    operator = input()
+    operators = ['+', '/', '*', '**', '-']
+    b = float(input('Enter second number'))
+    if operator not in operators:
+        raise ValueError    
+    if operator=='+':
+        if a + b==int(a + b):
+            print(f'Answer is {int(a + b)}')
+        else:
+            print(f'Answer is {a + b}')
+    elif operator=='-':
+        if a - b==int(a - b):
+            print(f'Answer is {int(a - b)}')
+        else:
+            print(f'Answer is {a - b}')
+    elif operator=='*':
+        if a * b==int(a * b):
+            print(f'Answer is {int(a * b)}')
+        else:
+            print(f'Answer is {a * b}')
+    elif operator=='/':
+        if a / b==int(a / b):
+            print(f'Answer is {int(a / b)}')
+        else:
+            print(f'Answer is {a / b}')
+    elif operator=='**':
+        if a ** b==int(a ** b):
+            print(f'Answer is {int(a ** b)}')
+        else:
+            print(f'Answer is {a ** b}')
+except ValueError:
+    print('a and b should be integers or floats and operator should be +, -, *, / or **.\
+ Please check your input')
