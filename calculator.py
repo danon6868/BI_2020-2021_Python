@@ -21,10 +21,13 @@ try:
         else:
             print(f'Answer is {a * b}')
     elif operator=='/':
-        if a / b==int(a / b):
-            print(f'Answer is {int(a / b)}')
+        if b!=0:
+            if a / b==int(a / b):
+                print(f'Answer is {int(a / b)}')
+            else:
+                print(f'Answer is {a / b}')
         else:
-            print(f'Answer is {a / b}')
+            print('Zerro division error')
     elif operator=='**':
         if a ** b==int(a ** b):
             print(f'Answer is {int(a ** b)}')
