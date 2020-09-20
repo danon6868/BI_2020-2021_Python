@@ -1,5 +1,6 @@
-try:
     a = float(input('Enter first number'))
+    
+
     operator = input()
     operators = ['+', '/', '*', '**', '-']
     b = float(input('Enter second number'))
