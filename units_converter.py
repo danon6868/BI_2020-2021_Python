@@ -22,7 +22,6 @@ def erg_to_ev(x):
     return x / 1.602 / 10 ** (-12)
 
 
-
 convet_dict = {'1': j_to_ev, '2': ev_to_j, '3': j_to_erg,
                '4': erg_to_j, '5': ev_to_erg, '6': erg_to_ev}
 
