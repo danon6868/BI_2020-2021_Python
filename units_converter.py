@@ -1,5 +1,3 @@
-#eqweqweqwewqe
-
 def j_to_ev(x):
     return x * 6.24151 * 10 ** 18
 
@@ -22,7 +20,6 @@ def ev_to_erg(x):
 
 def erg_to_ev(x):
     return x / 1.602 / 10 ** (-12)
-
 
 
 convet_dict = {'1': j_to_ev, '2': ev_to_j, '3': j_to_erg,
