@@ -10,4 +10,4 @@ def sequence_generator(length, prefix=''):
 
 if __name__ == '__main__':
     length = int(input('Please enter the sequence length: '))
-    print(*sequence_generator(length))
+    print(sequence_generator(length))
