@@ -1,4 +1,4 @@
-class Sequence:
+class Sequence
     # Here it means biological sequence 
     # e. g. DNA, RNA, protein
     def __init__(self, seq):
