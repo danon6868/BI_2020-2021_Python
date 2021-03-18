@@ -1,8 +1,8 @@
 try:
-    a = float(input('Enter first number'))
-    operator = input()
+    a = float(input('Enter first number: '))
+    operator = input('Enter an opetator [e.g. +, -, *, /, **]: ')
     operators = ['+', '/', '*', '**', '-']
-    b = float(input('Enter second number'))
+    b = float(input('Enter second number: '))
     if operator not in operators:
         raise ValueError    
     if operator=='+':
