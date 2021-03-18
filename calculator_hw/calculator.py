@@ -4,7 +4,7 @@ try:
     operators = ['+', '/', '*', '**', '-']
     b = float(input('Enter second number: '))
     if operator not in operators:
-        raise ValueError    
+        raise ValueError
     if operator == '+':
         if a + b == int(a + b):
             print(f'Answer is {int(a + b)}')
@@ -16,7 +16,7 @@ try:
         else:
             print(f'Answer is {a - b}')
     elif operator == '*':
-        if a *  b == int(a * b):
+        if a * b == int(a * b):
             print(f'Answer is {int(a * b)}')
         else:
             print(f'Answer is {a * b}')
