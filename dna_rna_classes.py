@@ -30,10 +30,7 @@ class Sequence:
         return f'{type(self).__name__}({self.seq})'
 
     def __eq__(self, other):
-        if self.seq == other.seq:
-            return True
-        else:
-            return False
+        return self.seq == other.seq and other.seq == self.seq
 
     def gc_content(self):
         n_g = self.seq.count('G')
