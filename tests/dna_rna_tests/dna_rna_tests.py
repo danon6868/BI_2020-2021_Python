@@ -3,6 +3,7 @@ from dna_rna_classes import RNA
 from dna_rna_classes import DNA
 from dna_rna_classes import Sequence
 
+
 class TestClassDNA(unittest.TestCase):
 
     def test_dna_is_dna(self):
@@ -63,6 +64,7 @@ class TestClassDNA(unittest.TestCase):
 
 
 class TestClassRNA(unittest.TestCase):
+
     def test_rna_is_rna(self):
         rna = RNA("AAUUGGCC")
         self.assertEqual(type(rna), RNA)
