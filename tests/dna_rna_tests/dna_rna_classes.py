@@ -1,6 +1,6 @@
 class Sequence:
     # Here it means biological sequence
-    # e. g. DNA, RNA, protein
+    # e. g. DNA, RNA, protein etc.
     def __init__(self, seq):
         if isinstance(seq, str):
             self.seq = seq.upper()
