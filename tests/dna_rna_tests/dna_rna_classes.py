@@ -37,7 +37,7 @@ class Sequence:
             return False
         if type(other) == type(self) and other.seq == self.seq:
             return True
-            
+
     def gc_content(self):
         """
         This method can not calculate gc content for zero length sequence!!!
@@ -46,7 +46,7 @@ class Sequence:
             n_g = self.seq.count('G')
             n_c = self.seq.count('C')
             return (n_g + n_c) / len(self.seq)
-            
+
     def complement(self):
         if type(self) == Sequence:
             raise NotImplementedError('Sequence object cannot be complemented')
@@ -83,7 +83,7 @@ class RNA(Sequence):
                   'C': 'G'}
 
     alph = {'A', 'U', 'G', 'C'}
- 
+
     def __init__(self, seq):
         if set(seq.upper()) <= self.alph:
             super().__init__(seq)
