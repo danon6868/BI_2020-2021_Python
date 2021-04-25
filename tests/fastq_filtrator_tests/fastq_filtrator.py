@@ -133,6 +133,7 @@ def fastq_filtrator(arguments: dict):
 
 if __name__ == "__main__":
     
+
     arguments = parse_arguments(sys.argv)
 
     if not arguments['output_base_name']:
