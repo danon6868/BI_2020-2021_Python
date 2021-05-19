@@ -4,7 +4,7 @@ This is the first homework in Bioinformatics Institute during Python course. It 
 
 ## Description
 
-**calculator.py** script is the simplest calculator that takes the first operand, operator and the second operand from different lines and performs calculation. It cam provide +, -, *, / and **.
+**calculator.py** script is the simplest calculator that takes the first operand, operator and the second operand from different lines and performs calculation. It provides +, -, *, / and **.
 
 ### Examples
 
