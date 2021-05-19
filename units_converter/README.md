@@ -21,9 +21,21 @@ You can choose something from following list:
 6: erg -> eV
 ```
 
-You just need to type number in your CL.
+You just need to type number in your CL. Then you need to enter a quantity of corresponding unit. Also convater will ask you if you want to repeat after convartion.
 
+### Examples
 
+```bash
+1: J -> eV
+2: eV -> J
+3: J -> erg
+4: erg -> J
+5: eV -> erg
+6: erg -> eV
+>>> Press number to choose units you want: 4
+>>> Enter a quantity: 20
+20 erg = 2e-06 J
+```
 
 
 
