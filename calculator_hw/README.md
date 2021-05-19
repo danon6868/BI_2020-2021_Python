@@ -9,17 +9,17 @@ This is my first homework in Bioinformatics Institute. It covers I/O and branchi
 ### Examples
 
 ```python
-print(Enter first number: 10)   
-print(Enter an opetator [e.g. +, -, *, /, **]: *)
-print(Enter second number: 2)
-print(Answer is 20)
+>>> Enter first number: 10
+>>> Enter an opetator [e.g. +, -, *, /, **]: *
+>>> Enter second number: 2
+20
 ```
 
 ```python
-print(Enter first number: 3)   
-print(Enter an opetator [e.g. +, -, *, /, **]: +)
-print(Enter second number: 2)
-print(Answer is 5)
+>>> Enter first number: 3
+>>> Enter an opetator [e.g. +, -, *, /, **]: +
+>>> Enter second number: 2
+5
 ```
 
 ## Usage
