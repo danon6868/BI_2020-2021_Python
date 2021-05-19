@@ -8,7 +8,7 @@ This is the first homework in Bioinformatics Institute during Python course. It 
 
 ### Examples
 
-```python
+```bash
 >>> Enter first number: 10
 >>> Enter an opetator [e.g. +, -, *, /, **]: *
 >>> Enter second number: 2
