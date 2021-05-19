@@ -15,7 +15,7 @@ This is the first homework in Bioinformatics Institute during Python course. It 
 The answer is 20
 ```
 
-```python
+```bash
 >>> Enter first number: 3
 >>> Enter an opetator [e.g. +, -, *, /, **]: +
 >>> Enter second number: 2
