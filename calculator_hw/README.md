@@ -12,14 +12,14 @@ This is my first homework in Bioinformatics Institute. It covers I/O and branchi
 >>> Enter first number: 10
 >>> Enter an opetator [e.g. +, -, *, /, **]: *
 >>> Enter second number: 2
-20
+The answer is 20
 ```
 
 ```python
 >>> Enter first number: 3
 >>> Enter an opetator [e.g. +, -, *, /, **]: +
 >>> Enter second number: 2
-5
+The answer is 5
 ```
 
 ## Usage
