@@ -1,10 +1,10 @@
 # Calculator homework
 
-This is my first homework in Bioinformatics Institute. It covers I/O and branching in python.
+This is the first homework in Bioinformatics Institute during Python course. It covers I/O and branching in python.
 
 ## Description
 
-**calculator.py** script is the simplest calculator that takes the first operand, operator and the second operand from different lines and performs calculation.
+**calculator.py** script is the simplest calculator that takes the first operand, operator and the second operand from different lines and performs calculation. It cam provide +, -, *, / and **.
 
 ### Examples
 
@@ -27,8 +27,8 @@ The answer is 5
 ### Download source code
 
 ```bash
-git clone https://github.com/krglkvrmn/BI_2020-2021_Python.git
-cd BI_2020-2021_Python/calculator_homework
+git clone https://github.com/danon6868/BI_2020-2021_Python.git
+cd BI_2020-2021_Python/calculator_hw
 ```
 
 ### Launch script
